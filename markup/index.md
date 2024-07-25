@@ -1,4 +1,4 @@
-# HTML
+# Introductie
 
 ## Wat is HTML?
 
@@ -209,7 +209,7 @@ Overdrijf niet met HTML-commentaar, want bij elk paginabezoek moet die ook gedow
 Duidelijk geschreven code heeft weinig tot geen commentaar nodig, maar als beginner kan het wel een handige geheugensteun zijn.
 :::
 
-::: icon-tip
+::: tip Tip
 Omdat de browser HTML-tags binnen commentaar negeert kan je dit gebruiken om code tijdelijk uit te schakelen, bijvoorbeeld om iets uit te proberen.
 :::
 

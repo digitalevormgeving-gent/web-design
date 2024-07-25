@@ -5,6 +5,9 @@ export default defineConfig({
   base: '/web-technology/',
   title: "Web Technology",
   description: "Syllabus course Web Technology",
+  markdown: {
+    lineNumbers: true,
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -54,6 +57,14 @@ export default defineConfig({
           text: 'Styling',
           items: [
             { text: 'Introductie', link: '/styling' },
+            { text: 'Selectoren', link: '/styling/selectors' },
+            { text: 'Waarden', link: '/styling/values' },
+            { text: 'Boxmodel', link: '/styling/box-model' },
+            { text: 'Typografie', link: '/styling/typography' },
+            { text: 'Kleursystemen', link: '/styling/color-systems' },
+            { text: 'Boxstijlen', link: '/styling/box-styling' },
+            { text: 'Lay-out', link: '/styling/layout' },
+            { text: 'Media Queries', link: '/styling/media-queries' },
           ]
         }
       ],
@@ -74,6 +85,13 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+    footer: {
+      license: {
+        text: 'MIT License',
+        link: 'https://opensource.org/licenses/MIT'
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} Arteveldehogeschool & LUCA School of Arts`
+    }
   }
 })
