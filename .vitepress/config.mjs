@@ -12,59 +12,25 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Technologie', link: '/technology' },
-      { text: 'Markup', link: '/markup' },
-      { text: 'Styling', link: '/styling' },
+      { text: 'Design', link: '/design' },
+      { text: 'Coding', link: '/coding' },
       { text: 'Richtlijnen', link: '/guidelines' },
     ],
 
     sidebar: {
-      '/technology/': [
+      '/design/': [
         {
-          text: 'Technologie',
+          text: 'Design',
           items: [
-            { text: 'Introductie', link: '/technology' },
-            { text: 'Netwerk', link: '/technology/network' },
-            { text: 'OSI', link: '/technology/osi' },
-            { text: 'Protocollen', link: '/technology/protocols' },
-            { text: 'Internet', link: '/technology/internet' },
-            { text: 'World Wide Web', link: '/technology/web' },
-            { text: 'Applicaties', link: '/technology/applications' },
-            { text: 'Source Code Management', link: '/technology/scm' },
-            { text: 'Command Line Interface', link: '/technology/cli' },
+            { text: 'Introductie', link: '/design' },
           ]
         }
       ],
-      '/markup/': [
+      '/coding/': [
         {
-          text: 'Markup',
+          text: 'Coding',
           items: [
             { text: 'Introductie', link: '/markup' },
-            { text: 'Structuur', link: '/markup/structure' },
-            { text: 'Basis head-elementen', link: '/markup/basic-head-elements' },
-            { text: 'Tekst', link: '/markup/text' },
-            { text: 'Lijsten', link: '/markup/lists' },
-            { text: 'Linken', link: '/markup/links' },
-            { text: 'Afbeeldingen', link: '/markup/images' },
-            { text: 'Tabellen', link: '/markup/tables' },
-            { text: 'Formulieren', link: '/markup/forms' },
-            { text: 'Lay-out', link: '/markup/layout' },
-          ]
-        }
-      ],
-      '/styling/': [
-        {
-          text: 'Styling',
-          items: [
-            { text: 'Introductie', link: '/styling' },
-            { text: 'Selectoren', link: '/styling/selectors' },
-            { text: 'Waarden', link: '/styling/values' },
-            { text: 'Boxmodel', link: '/styling/box-model' },
-            { text: 'Typografie', link: '/styling/typography' },
-            { text: 'Kleursystemen', link: '/styling/color-systems' },
-            { text: 'Boxstijlen', link: '/styling/box-styling' },
-            { text: 'Lay-out', link: '/styling/layout' },
-            { text: 'Media Queries', link: '/styling/media-queries' },
           ]
         }
       ],
